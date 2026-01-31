@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-rose-50 via-blush-50 to-cream-50;
+  }
+}
+
+@layer utilities {
+  .text-shadow-soft {
+    text-shadow: 0 2px 8px rgba(251, 113, 133, 0.3);
+  }
+  
+  .glow-pink {
+    box-shadow: 0 0 20px rgba(251, 113, 133, 0.4);
+  }
+}
