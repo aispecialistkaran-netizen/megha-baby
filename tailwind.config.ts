@@ -32,8 +32,9 @@ const config: Config = {
         },
       },
       fontFamily: {
-        romantic: ['"Dancing Script"', 'cursive'],
-        cute: ['"Pacifico"', 'cursive'],
+        sans: ['var(--font-sans)', 'system-ui', 'sans-serif'],
+        romantic: ['var(--font-romantic)', 'cursive'],
+        cute: ['var(--font-cute)', 'cursive'],
       },
       animation: {
         'float': 'float 6s ease-in-out infinite',

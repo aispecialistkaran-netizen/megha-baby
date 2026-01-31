@@ -5,12 +5,18 @@ import LoveMessageSection from '@/components/LoveMessageSection';
 import CuteCharactersSection from '@/components/CuteCharactersSection';
 import PromiseSection from '@/components/PromiseSection';
 import ProposalSection from '@/components/ProposalSection';
+import BackgroundMusic from '@/components/BackgroundMusic';
+import LoveLetterButton from '@/components/LoveLetterButton';
+import WeddingCountdown from '@/components/WeddingCountdown';
 
 export default function Home() {
   return (
     <main className="overflow-x-hidden">
+      <BackgroundMusic />
       <HeroSection />
       <LoveMessageSection />
+      <LoveLetterButton />
+      <WeddingCountdown />
       <CuteCharactersSection />
       <PromiseSection />
       <ProposalSection />

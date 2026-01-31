@@ -1,17 +1,25 @@
 import type { Metadata } from "next";
-import { Dancing_Script, Pacifico } from "next/font/google";
+import { Dancing_Script, Pacifico, Inter } from "next/font/google";
 import "./globals.css";
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: '--font-sans',
+  display: 'swap',
+});
 
 const dancingScript = Dancing_Script({ 
   subsets: ["latin"],
   variable: '--font-romantic',
-  weight: ['400', '500', '600', '700']
+  weight: ['400', '500', '600', '700'],
+  display: 'swap',
 });
 
 const pacifico = Pacifico({ 
   subsets: ["latin"],
   variable: '--font-cute',
-  weight: '400'
+  weight: '400',
+  display: 'swap',
 });
 
 export const metadata: Metadata = {
@@ -29,7 +37,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${dancingScript.variable} ${pacifico.variable} antialiased`}>
+      <body className={`${inter.variable} ${dancingScript.variable} ${pacifico.variable} font-sans antialiased`}>
         {children}
       </body>
     </html>
