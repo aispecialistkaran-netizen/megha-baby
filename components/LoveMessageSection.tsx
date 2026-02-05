@@ -35,7 +35,7 @@ export default function LoveMessageSection() {
           transition={{ delay: 0.3 }}
           className="font-romantic text-5xl md:text-6xl text-rose-600 mb-8 text-center"
         >
-          Shivangi baby,
+          Megha baby,
         </motion.h2>
 
         {/* Message */}

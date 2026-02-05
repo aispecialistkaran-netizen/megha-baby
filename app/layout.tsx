@@ -23,7 +23,7 @@ const pacifico = Pacifico({
 });
 
 export const metadata: Metadata = {
-  title: "For My Forever — Shivangi baby 💖",
+  title: "For My Forever — Megha baby 💖",
   description: "A special message for the most special person",
   icons: {
     icon: '/favicon.ico',

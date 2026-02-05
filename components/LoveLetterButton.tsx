@@ -157,7 +157,7 @@ export default function LoveLetterButton() {
                         transition={{ delay: 1.5, duration: 0.6 }}
                         className="text-2xl font-bold text-pink-600 italic"
                       >
-                        Shivangi,
+                        Megha,
                       </motion.p>
                       
                       <motion.div

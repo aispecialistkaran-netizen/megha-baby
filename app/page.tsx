@@ -7,7 +7,6 @@ import PromiseSection from '@/components/PromiseSection';
 import ProposalSection from '@/components/ProposalSection';
 import BackgroundMusic from '@/components/BackgroundMusic';
 import LoveLetterButton from '@/components/LoveLetterButton';
-import WeddingCountdown from '@/components/WeddingCountdown';
 
 export default function Home() {
   return (
@@ -16,7 +15,6 @@ export default function Home() {
       <HeroSection />
       <LoveMessageSection />
       <LoveLetterButton />
-      <WeddingCountdown />
       <CuteCharactersSection />
       <PromiseSection />
       <ProposalSection />

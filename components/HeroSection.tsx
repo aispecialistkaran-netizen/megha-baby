@@ -42,7 +42,7 @@ export default function HeroSection() {
           transition={{ delay: 1, duration: 0.8, type: 'spring' }}
           className="font-romantic text-6xl md:text-8xl text-rose-700 mb-8 animate-pulse-soft"
         >
-          Shivangi baby 💖
+          Megha baby 💖
         </motion.div>
 
         {/* Subtext */}

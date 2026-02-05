@@ -65,7 +65,7 @@ export default function ProposalSection() {
                   }}
                   className="font-romantic text-4xl md:text-6xl lg:text-7xl text-rose-600 leading-relaxed mb-4"
                 >
-                  Shivangi baby,
+                  Megha baby,
                 </motion.h2>
                 
                 <motion.p

@@ -1,4 +1,4 @@
-# For My Forever — Shivangi 💖
+# For My Forever — Megha 💖
 
 A romantic, cute, and emotional webpage built with Next.js, Tailwind CSS, and Framer Motion.
 
@@ -104,4 +104,4 @@ Created with love ❤️
 
 ---
 
-**Made for Shivangi** 💖
+**Made for Megha** 💖
